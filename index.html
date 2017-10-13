@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+    .box {
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        top: 20px;
+        left: 0;
+    }
+    .nelson {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+        width: 200px;
+        display: none;
+    }
+</style>
+<body>
+    <audio src="doh1.mp3" id="doh"></audio>
+    <audio src="haha.mp3" id="ha_ha"></audio>
+    <img class="box" src="homer.png">
+    <img class="nelson" src="nelson.png">
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+</script>
+<script src="animation.js"></script>
+</html>
